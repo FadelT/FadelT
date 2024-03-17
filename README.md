@@ -21,6 +21,7 @@ Hey there! I'm known here as **@FadelT**, a passionate enthusiast of **Artificia
 I'm always open to connecting with fellow tech enthusiasts and professionals. Whether you're looking for collaboration on a project, need consulting, or just want to chat about the latest in tech, feel free to reach out to me:
 
 - 📧 Email: nbouyaakassinga@gmail.com
+- Linkedin: https://www.linkedin.com/in/n-bouyaa-kassinga-818a02169/
 
 ---
 
