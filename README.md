@@ -1,30 +1,42 @@
-# Welcome to FadelT's GitHub Space! 👋
+## Nbouyaa Kassinga
 
-## About Me
+AI/Cloud consultant specializing in LLM inference infrastructure and MLOps. 5 years building production AI systems on AWS and Azure.
 
-Hey there! I'm known here as **@FadelT**, a passionate enthusiast of **Artificial Intelligence**, **Cloud Computing**, and dabbling in **CyberSecurity**. My professional journey is currently centered around empowering businesses and individuals by leveraging the power of AI and the cloud. As an **AI/MLOps and Cloud (AWS) Consultant**, I thrive on solving complex problems, streamlining operations, and enhancing efficiency through cutting-edge technology.
+### Open Source Contributions
 
-## Interests
+Contributing to LLM inference and agentic frameworks:
 
-- **Artificial Intelligence**: From neural networks to machine learning models & Gen AI, I'm captivated by the endless possibilities AI brings to the table.
-- **Cloud Computing**: I specialize in AWS services, exploring how they can be used to build scalable, resilient, and efficient applications.
-- **CyberSecurity**: While it's a bit on the side, I'm intrigued by the world of cybersecurity and how it shapes the security landscape of modern technology.
+**Active PRs**
+- [litellm#30537](https://github.com/BerriAI/litellm/pull/30537) - Add missing UK PII entity types to Presidio guardrail
+- [strands-agents#2822](https://github.com/strands-agents/harness-sdk/pull/2822) - Build-time validation for Bedrock strict_tools constraints (prevented 18h prod outage)
+- [strands-agents#2821](https://github.com/strands-agents/harness-sdk/pull/2821) - Fix Anthropic ParsedTextBlock Pydantic serialization warnings
 
-## I'm Currently
+Focus areas: provider integrations (Anthropic, AWS Bedrock, Presidio), build-time validation, comprehensive testing with real APIs.
 
-- 🛠 Working as an **AI/MLOps and Cloud (AWS) Consultant**, where I help in architecting, deploying, and managing scalable cloud solutions and AI applications.
-- 📚 Continuously learning and staying up-to-date with the latest trends and technologies in AI, cloud computing, and cybersecurity.
-- 👥 Looking to collaborate on open-source projects that aim to make a difference, particularly those at the intersection of AI and cloud technologies.
+### Technical Stack
 
-## Let's Connect!
+**LLM & AI**
+- LLM inference optimization (litellm, strands-agents)
+- Guardrails and content filtering (Presidio, AWS Bedrock)
+- Model deployment and serving
 
-I'm always open to connecting with fellow tech enthusiasts and professionals. Whether you're looking for collaboration on a project, need consulting, or just want to chat about the latest in tech, feel free to reach out to me:
+**Cloud & Infrastructure**
+- AWS (Bedrock, Lambda, ECS, SageMaker)
+- Azure AI services
+- MLOps pipelines
 
-- 📧 Email: nbouyaakassinga@gmail.com
-- Linkedin: https://www.linkedin.com/in/n-bouyaa-kassinga-818a02169/
+**Languages & Tools**
+- Python, TypeScript
+- Docker, Kubernetes
+- Terraform, CloudFormation
 
----
+### Background
 
-> FadelT's GitHub is a ✨ special ✨ place because it's not just a repository of code, but a snapshot of my journey and contributions in the tech world. Thank you for visiting, and I hope we can connect and collaborate on something amazing!
+- Ecole Centrale Casablanca / Ecole Centrale Marseille
+- Based in Paris
+- Open to consulting opportunities in LLM infrastructure
 
+### Connect
 
+- Email: nbouyaakassinga@gmail.com
+- LinkedIn: [n-bouyaa-kassinga](https://www.linkedin.com/in/n-bouyaa-kassinga-818a02169/)
