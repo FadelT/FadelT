@@ -6,8 +6,10 @@ AI/Cloud consultant specializing in LLM inference infrastructure and MLOps. 5 ye
 
 Contributing to LLM inference and agentic frameworks:
 
+**Merged**
+- [litellm#30537](https://github.com/BerriAI/litellm/pull/30537) - Add UK PII entity types to Presidio guardrail (merged <24h)
+
 **Active PRs**
-- [litellm#30537](https://github.com/BerriAI/litellm/pull/30537) - Add missing UK PII entity types to Presidio guardrail
 - [strands-agents#2822](https://github.com/strands-agents/harness-sdk/pull/2822) - Build-time validation for Bedrock strict_tools constraints (prevented 18h prod outage)
 - [strands-agents#2821](https://github.com/strands-agents/harness-sdk/pull/2821) - Fix Anthropic ParsedTextBlock Pydantic serialization warnings
 
