@@ -2,6 +2,12 @@
 
 AI/Cloud consultant specializing in LLM inference infrastructure and MLOps. 5 years building production AI systems on AWS and Azure.
 
+### Projects
+
+**[Sports Betting Quantitative Framework](https://github.com/FadelT/sports-betting)** — [live dashboard](https://sports-betting-5duwaqtb4kiiyn6rr9tet2.streamlit.app/)
+
+Statistical model for identifying value bets in Premier League football markets. Detects mispricings in draw odds using historical match data, validated across 4 independent out-of-sample windows (Z = 3.37). +20.7% ROI, ×4.2 bankroll growth since Aug 2022.
+
 ### Open Source Contributions
 
 Contributing to LLM inference and agentic frameworks:
