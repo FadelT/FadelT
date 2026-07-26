@@ -4,9 +4,9 @@ AI/Cloud consultant specializing in LLM inference infrastructure and MLOps. 5 ye
 
 ### Projects
 
-**[ETF Momentum Rotation](https://github.com/FadelT/trading-strategies)**
+**[Systematic ETF Strategy](https://github.com/FadelT/trading-strategies)**
 
-Systematic ETF rotation strategy. Backtested 2015→2026: CAGR 21.1%, Sharpe 0.92. Deployed live via IBKR.
+Quantitative equity strategy. Backtested 2015→2026: CAGR 21.1%, Sharpe 0.92. Deployed live via IBKR.
 
 **[Algorithmic Forex Bot (MT5)](https://github.com/FadelT/trading-strategies)**
 
