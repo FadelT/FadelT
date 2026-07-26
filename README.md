@@ -4,6 +4,14 @@ AI/Cloud consultant specializing in LLM inference infrastructure and MLOps. 5 ye
 
 ### Projects
 
+**[ETF Momentum Rotation](https://github.com/FadelT/trading-strategies)**
+
+Systematic sector ETF rotation strategy with weekly rebalancing. Momentum-based ranking with defensive filter (SPY MA200), inverse volatility weighting, and a crypto satellite allocation. Backtested 2015→2026: CAGR 21.1%, Sharpe 0.92, deployed live via IBKR.
+
+**[Algorithmic Forex Bot (MT5)](https://github.com/FadelT/trading-strategies)**
+
+Fully automated forex trading system on 10 major pairs. ATR-based sizing, correlation filtering, stress regime detection. ~30% CAGR. Live track record building on Darwinex for external capital allocation.
+
 **[Sports Betting Quantitative Framework](https://github.com/FadelT/sports-betting)** — [live dashboard](https://sports-betting-5duwaqtb4kiiyn6rr9tet2.streamlit.app/)
 
 Statistical model for identifying value bets in Premier League football markets. Detects mispricings in draw odds using historical match data, validated across 4 independent out-of-sample windows (Z = 3.37). +20.7% ROI, ×4.2 bankroll growth since Aug 2022.
