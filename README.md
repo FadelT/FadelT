@@ -6,7 +6,7 @@ AI/Cloud consultant specializing in LLM inference infrastructure and MLOps. 5 ye
 
 **[ETF Momentum Rotation](https://github.com/FadelT/trading-strategies)**
 
-Systematic sector ETF rotation strategy with weekly rebalancing. Momentum-based ranking with defensive filter (SPY MA200), inverse volatility weighting, and a crypto satellite allocation. Backtested 2015→2026: CAGR 21.1%, Sharpe 0.92, deployed live via IBKR.
+Systematic ETF rotation strategy. Backtested 2015→2026: CAGR 21.1%, Sharpe 0.92. Deployed live via IBKR.
 
 **[Algorithmic Forex Bot (MT5)](https://github.com/FadelT/trading-strategies)**
 
