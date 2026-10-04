@@ -1,63 +1,48 @@
-## Nbouyaa Kassinga
+# N’bouyaa Kassinga
 
-AI/Cloud consultant specializing in LLM inference infrastructure and MLOps. 5 years building production AI systems on AWS and Azure.
+Senior AI Engineer with 5+ years of experience taking AI systems from prototype to production. I build RAG and multi-agent platforms, MCP/A2A integrations, and cost-aware LLM serving infrastructure on AWS and Azure.
 
-### Projects
+My focus is practical: reliable systems, measurable business impact, strong observability, and controlled inference costs.
 
-**[Systematic ETF Strategy](https://github.com/FadelT/trading-strategies)**
+## Featured project
 
-Quantitative equity strategy. Backtested 2015→2026: CAGR 21.1%, Sharpe 0.92. Deployed live via IBKR.
+### [LLM Inference Lab](https://github.com/FadelT/llm-inference-lab)
 
-**[Algorithmic Forex Bot (MT5)](https://github.com/FadelT/trading-strategies)**
+A reproducible lab for understanding and optimizing LLM serving on real GPUs.
 
-Fully automated forex trading system on 10 major pairs. ATR-based sizing, correlation filtering, stress regime detection. ~30% CAGR. Live track record building on Darwinex for external capital allocation.
+- Benchmarked Llama 3.1 8B with vLLM on an NVIDIA L4 hosted on AWS.
+- Connected measured latency and throughput to roofline predictions.
+- Measured batch scaling from 17 to 803 tokens/s (47× aggregate throughput).
+- Tracks TTFT, inter-token latency, GPU utilization, memory bandwidth, and cost.
+- Designed for short, reproducible sessions with infrastructure teardown to keep experiments below $1.
 
-**[Crypto Research Pipeline](https://github.com/FadelT/dual-direction-fx-backtest)**
+Next experiments: FP16/FP8/INT4 quantization, prefix and KV caching, speculative decoding, and profiling.
 
-Automated monitoring pipeline for quantitative crypto research. Production-grade Python package with GitHub Actions running every 4h: signal detection, paper trading engine, and weekly performance reporting — designed for unattended operation over a multi-month research period.
+## Selected production impact
 
-**[Sports Betting Quantitative Framework](https://github.com/FadelT/sports-betting)** — [live dashboard](https://sports-betting-5duwaqtb4kiiyn6rr9tet2.streamlit.app/)
+- Built a multi-agent enterprise assistant used by 1,000+ people weekly, combining RAG, document analysis, web search, guardrails, and LLM observability; reduced query-resolution time by 50%.
+- Developed an agentic data-migration platform covering approximately 200 pipelines; reduced a five-day migration cycle to around 30 minutes and contributed to roughly €1M in savings.
+- Optimized speech-model inference on AWS Inferentia, reducing latency by 10% and infrastructure cost by more than 50%.
+- Delivered production systems with Python, FastAPI, LangChain/LangGraph, Amazon Bedrock, Azure, Terraform, Docker, and Kubernetes.
 
-Statistical model for identifying value bets in Premier League football markets. Detects mispricings in draw odds using historical match data, validated across 4 independent out-of-sample windows (Z = 3.37). +20.7% ROI, ×4.2 bankroll growth since Aug 2022.
+## Open-source contributions
 
-### Open Source Contributions
+- [BerriAI/litellm#30537](https://github.com/BerriAI/litellm/pull/30537) — added UK PII entity types to the Presidio guardrail integration (merged).
+- [strands-agents/harness-sdk#2822](https://github.com/strands-agents/harness-sdk/pull/2822) — build-time validation for Amazon Bedrock `strict_tools` constraints.
+- [strands-agents/harness-sdk#2821](https://github.com/strands-agents/harness-sdk/pull/2821) — fixed Anthropic `ParsedTextBlock` serialization warnings.
 
-Contributing to LLM inference and agentic frameworks:
+## Core stack
 
-**Merged**
-- [litellm#30537](https://github.com/BerriAI/litellm/pull/30537) - Add UK PII entity types to Presidio guardrail (merged <24h)
+- **GenAI:** RAG, multi-agent systems, MCP, A2A, tool calling, evaluation, guardrails, Langfuse
+- **Inference:** vLLM, model serving, GPU benchmarking, batching, latency/throughput analysis
+- **Application:** Python, FastAPI, LangChain, LangGraph, Claude Code skills and workflows
+- **Cloud & platform:** AWS Bedrock, AWS Inferentia, Azure, Terraform, Docker, Kubernetes
 
-**Active PRs**
-- [strands-agents#2822](https://github.com/strands-agents/harness-sdk/pull/2822) - Build-time validation for Bedrock strict_tools constraints (prevented 18h prod outage)
-- [strands-agents#2821](https://github.com/strands-agents/harness-sdk/pull/2821) - Fix Anthropic ParsedTextBlock Pydantic serialization warnings
+## Other engineering work
 
-Focus areas: provider integrations (Anthropic, AWS Bedrock, Presidio), build-time validation, comprehensive testing with real APIs.
+I also maintain quantitative research projects covering systematic strategies, automated experimentation, backtesting, and production monitoring. They are available in my public repositories but remain secondary to my AI engineering work.
 
-### Technical Stack
+## Contact
 
-**LLM & AI**
-- LLM inference optimization (litellm, strands-agents)
-- Guardrails and content filtering (Presidio, AWS Bedrock)
-- Model deployment and serving
-
-**Cloud & Infrastructure**
-- AWS (Bedrock, Lambda, ECS, SageMaker)
-- Azure AI services
-- MLOps pipelines
-
-**Languages & Tools**
-- Python, TypeScript
-- Docker, Kubernetes
-- Terraform, CloudFormation
-
-### Background
-
-- Ecole Centrale Casablanca / Ecole Centrale Marseille
-- Based in Paris
-- Open to consulting opportunities in LLM infrastructure
-
-### Connect
-
-- Email: nbouyaakassinga@gmail.com
-- LinkedIn: [n-bouyaa-kassinga](https://www.linkedin.com/in/n-bouyaa-kassinga-818a02169/)
-
+- [LinkedIn](https://www.linkedin.com/in/n-bouyaa-kassinga-818a02169/)
+- [Email](mailto:nbouyaakassinga@gmail.com)
